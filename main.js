@@ -23,6 +23,8 @@ function getData() {
     });
 }
 
+getData();
+
 btn.addEventListener('click', () => {
   getData();
   img.classList.add('shake-img');
